@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemon Games</title>
+    <style>
+        table {font-size: 30px;}
+        th {font-size: 30px;} /* Fixed typo in "font-soze" */
+        body { margin: 0; padding: 0; position: relative; }
+        #background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+        .frame {
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin-top: 20px;
+        }
+        .frame div {
+            width: 30%;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <img id="background" src="bulb.jpeg" width="100%" height="100%" alt="background image">
+    <h1><center><b>Pokemon RomHacks</b></center></h1>
+    <center><img src="pokemon.jpg"></center>
+    
+    <table border="4" bordercolor="Black" align="center" style="width: 100%;">
+        <tr>
+            <th>RomHack</th>
+            <th>Mode</th>
+            <th>Type</th>
+            <th>Rating</th>
+        </tr>
+        <tr>
+            <td>Kaizo Emerald</td>
+            <td>Beatable but Hard</td>
+            <td>GBA</td>
+            <td>8/10</td>
+        </tr>
+        <tr>
+            <td>Radical Red</td>
+            <td>Hardest RomHack</td>
+            <td>GBA</td>
+            <td>10/10</td>
+        </tr>
+        <tr>
+            <td>Sacred Gold and Storm Silver</td>
+            <td>Medium</td>
+            <td>DS</td>
+            <td>7/10</td>
+        </tr>
+        <tr>
+            <td>Heart Red</td>
+            <td>Easy</td>
+            <td>DS</td>
+            <td>8.5/10</td>
+        </tr>
+        <!-- New Rom Hacks -->
+        <tr>
+            <td>Blaze Black 2</td>
+            <td>Hard</td>
+            <td>DS</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Vault White 2</td>
+            <td>Medium</td>
+            <td>DS</td>
+            <td>9.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Prism</td>
+            <td>Medium</td>
+            <td>GB</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Flora Sky</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>8/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Ash Gray</td>
+            <td>Beatable</td>
+            <td>GBA</td>
+            <td>7/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Sweet Version</td>
+            <td>Beatable</td>
+            <td>GBA</td>
+            <td>8.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Unbound</td>
+            <td>Hard</td>
+            <td>GBA</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Mega Power</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>8.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Light Platinum</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Dark Violet</td>
+            <td>Hard</td>
+            <td>GBA</td>
+            <td>8/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Gaia</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>9.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Blaze Black</td>
+            <td>Hard</td>
+            <td>DS</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Volt White</td>
+            <td>Hard</td>
+            <td>DS</td>
+            <td>9.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Zeta</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>8/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Omicron</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>8.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Orange Islands</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>7.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Legends</td>
+            <td>Hard</td>
+            <td>GBA</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Adventure Red Chapter</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Shiny Gold</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>8.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Corrupted Version</td>
+            <td>Hard</td>
+            <td>GBA</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Sun and Moon: An Alternate Story</td>
+            <td>Medium</td>
+            <td>DS</td>
+            <td>8/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Infinity</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>8.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Delta Emerald</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Reborn</td>
+            <td>Hard</td>
+            <td>PC</td>
+            <td>10/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Rejuvenation</td>
+            <td>Hard</td>
+            <td>PC</td>
+            <td>10/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Phoenix Rising</td>
+            <td>Medium</td>
+            <td>PC</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Uranium</td>
+            <td>Medium</td>
+            <td>PC</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Quest</td>
+            <td>Easy</td>
+            <td>PC</td>
+            <td>7/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Spectrum</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>8/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Cobalt and Amethyst</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>8.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Scarlet</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Indigo</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>7.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Ruby Destiny</td>
+            <td>Medium</td>
+            <td>GBA</td>
+            <td>8.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Crystal Clear</td>
+            <td>Beatable</td>
+            <td>GBC</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Fire Red Omega</td>
+            <td>Hard</td>
+            <td>GBA</td>
+            <td>9/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Dark Rising</td>
+            <td>Hard</td>
+            <td>GBA</td>
+            <td>8/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Light Diamond</td>
+            <td>Medium</td>
+            <td>DS</td>
+            <td>8.5/10</td>
+        </tr>
+        <tr>
+            <td>Pokemon Dark Pearl</td>
+            <td>Medium</td>
+            <td>DS</td>
+            <td>8.5/10</td>
+        </tr>
+    </table>
+
+    <p>
+        <h2>HELLO! Everyone to those who is reading this. I am here to tell you that the RATING is based on my own experiences in the games.<br>BTW have fun playing Pokemon RomHack Games!</h2>
+    </p>
+    
+    <center><img src="bg2.jpg"></center>
+
+    <center>
+        <h2>
+            Hello! Again.. I see you're done seeing all those list. Imma be honest i haven't played a lot of them. but YOU can try them yourself.<br> I just read their summaries and rated what I see and what I imagine.<br>
+            I hope you enjoy playing the games!.<br>Wanna play pokemon game online battling real players.
+	<a href="https://pokemonshowdown.com/">PokemonShowDownPlayForFREE</a>
+        </h2>
+    </center>
+
+    <h2>
+        Here are my favorites of all time:
+        <ul type="disc">
+            <li><a href="https://www.pokeharbor.com/2021/06/pokemon-radical-red/">Radical Red</a></li>
+            <li><a href="https://www.pokeharbor.com/2021/05/pokemon-emerald-kaizo/#google_vignette">Emerald Kaizo</a></li>
+            <li><a href="https://www.romspedia.com/roms/gameboy-advance/pokemon-dark-rising-kaizo#google_vignette">Dark Rising</a></li>
+            <li><a href="https://www.pokeharbor.com/2021/08/pokemon-dark-pearl-ruby/">Dark Pearl</a></li>
+        </ul>
+    </h2>
+
+    <!-- New Frame Section -->
+    <div class="frame">
+<style>
+    table {font-size: 30px;}
+    th {font-size: 30px;}
+    body { margin: 0; padding: 0; position: relative; }
+    #background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .frame {
+        border: 4px solid black;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: rgba(144, 238, 144, 0.8);
+        margin-top: 20px;
+    }
+    .frame div {
+        border: 4px solid balck;
+        width: 30%;
+        text-align: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+
+        <div>
+            <h3>Radical Red</h3>
+            <img src="https://cdn.thegamesdb.net/images/original/boxart/front/84401-1.jpg">
+            <p><h4>a fan-made ROM hack of Pokémon FireRed and LeafGreen that introduces new features, gameplay mechanics, and challenges to provide a unique and exciting nuzlocking experience.</h4></p>
+        </div>
+        <div>
+            <h3>Pokemon Emerald Kaizo</h3>
+            <img src="kaizo.jpg">
+            <p><h4>Emerald Kaizo is a popular rom hack of the original Pokémon Emerald game. It is known for being much more difficult than the base game, with tougher trainers, stronger wild Pokémon, and modified gym leaders.</h4></p>
+        </div>
+        <div>
+            <h3>Pokemon Fire red: Rocket Edition</h3>            
+		<img src="https://images.launchbox-app.com/daace6d1-9d99-4172-a3f1-0daacae56a9e.png">
+            <p><h4>A pokemon game where you are the villain of the sotry, or are you? starts the game making u pick a Pokemon. This gamemode can have you robbed somebody's pokemon i fu win in a pokemon battle.</h4></p>
+        </div>
+    </div>
+</body>
+</html>
